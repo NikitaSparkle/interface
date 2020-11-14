@@ -7,7 +7,7 @@ public class Now implements Command {
     }
 
     @Override
-    public void echo(String[] s) {
+    public void echo(String s) {
         System.out.print("Unknown command\n");
     }
 

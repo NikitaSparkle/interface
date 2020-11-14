@@ -7,13 +7,8 @@ public class Echo implements Command {
     }
 
     @Override
-    public void echo(String[] s) {
-        for (int i = 0; i < s.length; i++) {
-            if(i>4){
-                System.out.print(s[i]);
-            }
-        }
-        System.out.print("\n");
+    public void echo(String s) {
+        System.out.print(s+"\n");
     }
 
     @Override

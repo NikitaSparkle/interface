@@ -15,8 +15,7 @@ public class App {
             } else {
                 if (command.equals("echo")) {
                     Echo echo = new Echo();
-                    String[] s=new String[command.length()];
-                    echo.echo(s);
+                    echo.echo(command);
                 } else {
                     if (command.equals("now")) {
                         Now now = new Now();
